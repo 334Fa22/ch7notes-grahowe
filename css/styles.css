@@ -183,7 +183,6 @@ footer p a {
 
     /* Tablet Viewport: Style rule for header */
     header {
-        position: static;
         padding-bottom: 2%;
     }
 
@@ -205,6 +204,19 @@ footer p a {
     /* Tablet Viewport: Style rules for main content area */
     main ul {
         margin: 0 0 4% 10%;
+    }
+
+
+
+    .grid{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 20px;
+    }
+
+    .pic-text {
+      font-size: 1em;
+      padding: 10px;
     }
 
     #exercises {
